@@ -1,0 +1,72 @@
+// 主题颜色
+$bgColor: #181f1f; // 背景颜色
+$subBgColor: #1c2525; // 副背景色
+$textColor: #fff; // 文字颜色
+
+$titleColor: #fff; // 文字颜色
+$themeColor: #1c2525; // 主题色
+$highlightBgColor: #08a598; // 高亮背景颜色
+$borderColor: #456f6f; // 边框颜色
+$componentBgColor: #2f4b4b; // 组件底色
+$menuTextColor: #d1d1d1; // 菜单激活文本色
+$menuActiveTextColor: #ffff; // 菜单激活文本色
+//表单相关
+$formLabelColor: #0dd5c4; // 表单label文字颜色
+$inputBgColor: #0dd5c4; // 输入框背景颜色
+$inputTextColor: #fff;
+$inputBoderColor: #8bd3d3;
+// 表格相关
+$tableHeaderBgColor: #2f4b4b;
+$tableRowBgColor: #1e3939;
+// 按钮和弹框等配色
+$defaultColor: #18b1e1;
+$primaryColor: #18b1e1;
+$successColor: #8bd3d3;
+$infoColor: #999999;
+$warningColor: #d8b806;
+$dangerColor: #ff7272;
+
+@import './scrollber.scss';
+@import './card.scss';
+@import './checkbox.scss';
+@import './input.scss';
+@import './button.scss';
+@import './message.scss';
+@import './message-box.scss';
+@import './notify.scss';
+@import './dialog.scss';
+@import './table.scss';
+@import './pagination.scss';
+@import './popper.scss';
+@import './switch.scss';
+@import './form.scss';
+@import './radio.scss';
+@import './descriptions.scss';
+@import './tabs.scss';
+@import './upload.scss';
+
+:export {
+  bgColor: $bgColor;
+  subBgColor: $subBgColor;
+  textColor: $textColor;
+  titleColor: $titleColor;
+  themeColor: $themeColor;
+  highlightBgColor: $highlightBgColor;
+  borderColor: $borderColor;
+  componentBgColor: $componentBgColor;
+  menuTextColor: $menuTextColor;
+  menuActiveTextColor: $menuActiveTextColor;
+  primaryColor: $primaryColor;
+  successColor: $successColor;
+  infoColor: $infoColor;
+  warningColor: $warningColor;
+  dangerColor: $dangerColor;
+
+  formLabelColor: $formLabelColor;
+  inputBgColor: $inputBgColor;
+  inputTextColor: $inputTextColor;
+  inputBoderColor: $inputBoderColor;
+
+  tableHeaderBgColor: $tableHeaderBgColor;
+  tableRowBgColor : $tableRowBgColor;
+}

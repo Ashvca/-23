@@ -1,0 +1,182 @@
+//---------- 默认样式 ------------
+// 默认
+.theme-button.el-button {
+  border-color: $defaultColor;
+  color: $textColor;
+  background-color: transparent;
+}
+
+.theme-button.el-button:hover,
+.theme-button.el-button:focus {
+  border-color: $defaultColor;
+  color: $defaultColor;
+  background-color: rgba($color: $defaultColor, $alpha: 0.3);
+}
+
+// 文字
+.theme-button.el-button.el-button--text {
+  color: $defaultColor;
+  border: 0;
+}
+.theme-button.el-button.el-button--text:hover,
+.theme-button.el-button.el-button--text:focus {
+  color: $defaultColor;
+  border: 0;
+  background-color: transparent;
+}
+
+// 主要
+.theme-button.el-button--primary {
+  background-image: linear-gradient(180deg,#4f8080,#1b3737);
+  border-color: $inputBoderColor;
+  color: $textColor;
+}
+
+.theme-button.el-button--primary:hover{
+  background-color: linear-gradient(180deg,#6fabab,#1e7272);
+  border-color: $inputBoderColor;
+  color: #fff;
+}
+.theme-button.el-button--primary:focus {
+  background-color: linear-gradient(180deg,#4f8080,#1b3737);
+  border-color: $inputBoderColor;
+  color: #fff;
+}
+.theme-button.el-button--primary.is-disabled,
+.theme-button.el-button--primary.is-disabled:hover {
+  color: rgba(255, 255, 255, 0.5);
+  background-color: rgba(#1b3737,0.5);
+  border-color: $dangerColor;
+}
+
+// 成功
+.theme-button.el-button--success {
+  background-color: $successColor;
+  border-color: $successColor;
+  color: $textColor;
+}
+
+.theme-button.el-button--success:hover,
+.theme-button.el-button--success:focus {
+  border-color: $successColor;
+  background-color: rgba($color: $successColor, $alpha: 0.8);
+  color: $textColor;
+}
+
+// 信息
+.theme-button.el-button--info {
+  background-color: $infoColor;
+  border-color: $infoColor;
+  color: $textColor;
+}
+
+.theme-button.el-button--info:hover,
+.theme-button.el-button--info:focus {
+  border-color: $infoColor;
+  background-color: rgba($color: $infoColor, $alpha: 0.8);
+  color: $textColor;
+}
+
+// 警告
+.theme-button.el-button--warning {
+  background-color: $warningColor;
+  border-color: $warningColor;
+  color: $textColor;
+}
+
+.theme-button.el-button--warning:hover,
+.theme-button.el-button--warning:focus {
+  border-color: $warningColor;
+  background-color: rgba($color: $warningColor, $alpha: 0.8);
+  color: $textColor;
+}
+
+// 危险
+.theme-button.el-button--danger {
+  background-color: $dangerColor;
+  border-color: $dangerColor;
+  color: $textColor;
+}
+
+.theme-button.el-button--danger:hover,
+.theme-button.el-button--danger:focus {
+  border-color: $dangerColor;
+  background-color: rgba($color: $dangerColor, $alpha: 0.8);
+  color: $textColor;
+}
+
+//---------- 朴素样式 ------------
+// 默认
+.theme-button.el-button.is-plain:hover,
+.theme-button.el-button.is-plain:focus {
+  border-color: $defaultColor;
+  color: $defaultColor;
+  background-color: transparent;
+}
+
+// 主要
+.theme-button.el-button--primary.is-plain {
+  border-color: $primaryColor;
+  background-color: rgba($color: $primaryColor, $alpha: 0.2);
+  color: $primaryColor;
+}
+
+.theme-button.el-button--primary.is-plain:hover,
+.theme-button.el-button--primary.is-plain:focus {
+  background-color: $primaryColor;
+  border-color: $primaryColor;
+  color: white;
+}
+
+// 成功
+.theme-button.el-button--success.is-plain {
+  border-color: $successColor;
+  background-color: rgba($color: $successColor, $alpha: 0.3);
+  color: $successColor;
+}
+
+.theme-button.el-button--success.is-plain:hover,
+.theme-button.el-button--success.is-plain:focus {
+  background-color: $successColor;
+  border-color: $successColor;
+  color: white;
+}
+
+// 信息
+.theme-button.el-button--info.is-plain {
+  border-color: $infoColor;
+  background-color: rgba($color: $infoColor, $alpha: 0.3);
+}
+
+.theme-button.el-button--info.is-plain:hover,
+.theme-button.el-button--info.is-plain:focus {
+  background-color: $infoColor;
+  border-color: $infoColor;
+  color: white;
+}
+
+// 警告
+.theme-button.el-button--warning.is-plain {
+  border-color: $warningColor;
+  background-color: rgba($color: $warningColor, $alpha: 0.3);
+}
+
+.theme-button.el-button--warning.is-plain:hover,
+.theme-button.el-button--warning.is-plain:focus {
+  background-color: $warningColor;
+  border-color: $warningColor;
+  color: white;
+}
+
+// 危险
+.theme-button.el-button--danger.is-plain {
+  border-color: $dangerColor;
+  background-color: rgba($color: $dangerColor, $alpha: 0.3);
+}
+
+.theme-button.el-button--danger.is-plain:hover,
+.theme-button.el-button--danger.is-plain:focus {
+  background-color: $dangerColor;
+  border-color: $dangerColor;
+  color: white;
+}

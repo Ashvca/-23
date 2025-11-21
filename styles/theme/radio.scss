@@ -1,0 +1,16 @@
+.theme-radio.el-radio {
+  .el-radio__inner {
+    background-color: transparent;
+    border-color: $defaultColor;
+  }
+  .el-radio__label {
+    color: $defaultColor;
+  }
+  &.is-checked .el-radio__label {
+    color: $successColor;
+  }
+  &.is-checked .el-radio__inner {
+    border-color: $successColor;
+    background-color: $successColor;
+  }
+}

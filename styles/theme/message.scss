@@ -1,0 +1,29 @@
+.theme-message.el-message--success {
+  background-color: rgba($color: $successColor, $alpha: 0.95);
+  border-color: $successColor;
+  border-radius: 0;
+}
+.theme-message.el-message--warning {
+  background-color: rgba($color: $warningColor, $alpha: 0.95);
+  border-color: $warningColor;
+  border-radius: 0;
+}
+.theme-message.el-message--info {
+  background-color: rgba($color: $infoColor, $alpha: 0.95);
+  border-color: $infoColor;
+  border-radius: 0;
+}
+.theme-message.el-message--error {
+  background-color: rgba($color: $dangerColor, $alpha: 0.95);
+  border-color: $dangerColor;
+  border-radius: 0;
+}
+.theme-message .el-message__content {
+  color: $textColor !important;
+}
+.theme-message .el-message__icon {
+  color: $textColor !important;
+}
+.theme-message .el-message__closeBtn {
+  color: $textColor !important;
+}

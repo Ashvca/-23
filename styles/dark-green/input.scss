@@ -1,0 +1,42 @@
+.theme-input {
+  .el-input__icon {
+    color: $defaultColor !important;
+  }
+  textarea,
+  input {
+    color: $inputTextColor;
+    border-color: $borderColor;
+    background-color: $componentBgColor;
+  }
+  textarea::-webkit-input-placeholder,
+  input::-webkit-input-placeholder {
+    color: #c0c4cc;
+  }
+  .el-input__inner:focus {
+    border-color: $inputBoderColor;
+  }
+  .el-input__inner:hover {
+    border-color: $inputBoderColor;
+  }
+  .el-textarea__inner:focus {
+    border-color: $inputBoderColor;
+  }
+  .el-textarea__inner:hover {
+    border-color: $inputBoderColor;
+  }
+  .el-input .el-input__inner:hover {
+    border-color: $inputBoderColor;
+  }
+  .el-input.is-focus .el-input__inner:focus {
+    border-color: $inputBoderColor;
+  }
+  .el-input__icon {
+    color: $inputBoderColor !important;
+  }
+  &.el-input.is-disabled .el-input__inner {
+    background-color: $componentBgColor !important;
+    color: #c0c4cc;
+    cursor: not-allowed;
+    border-color: $componentBgColor;
+  }
+}

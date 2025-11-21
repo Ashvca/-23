@@ -1,0 +1,45 @@
+.theme-notify-success.el-notification,
+.theme-notify-warning.el-notification,
+.theme-notify-error.el-notification,
+.theme-notify-info.el-notification {
+  border-radius: 0 !important;
+}
+
+.theme-notify-warning .el-notification__title,
+.theme-notify-warning .el-notification__icon,
+.theme-notify-warning .el-notification__content,
+.theme-notify-warning .el-notification__closeBtn,
+.theme-notify-error .el-notification__title,
+.theme-notify-error .el-notification__icon,
+.theme-notify-error .el-notification__content,
+.theme-notify-error .el-notification__closeBtn,
+.theme-notify-info .el-notification__title,
+.theme-notify-info .el-notification__icon,
+.theme-notify-info .el-notification__content,
+.theme-notify-info .el-notification__closeBtn,
+.theme-notify-success .el-notification__title,
+.theme-notify-success .el-notification__icon,
+.theme-notify-success .el-notification__content,
+.theme-notify-success .el-notification__closeBtn {
+  color: $textColor !important;
+}
+
+.theme-notify-success {
+  background-color: rgba($color: $successColor, $alpha: 0.95) !important;
+  border-color: $successColor !important;
+}
+
+.theme-notify-warning {
+  background-color: rgba($color: $warningColor, $alpha: 0.95) !important;
+  border-color: $warningColor !important;
+}
+
+.theme-notify-info {
+  background-color: rgba($color: $infoColor, $alpha: 0.95) !important;
+  border-color: $infoColor !important;
+}
+
+.theme-notify-error {
+  background-color: rgba($color: $dangerColor, $alpha: 0.95) !important;
+  border-color: $dangerColor !important;
+}

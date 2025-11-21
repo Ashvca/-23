@@ -1,0 +1,22 @@
+.theme-checkbox .el-checkbox,
+.theme-checkbox.el-checkbox {
+  color: $formLabelColor;
+
+  .el-checkbox__inner {
+    background-color: transparent;
+    border-color: $formLabelColor;
+  }
+  & .is-indeterminate .el-checkbox__inner,
+  .is-focus .el-checkbox__inner {
+    border-color: $formLabelColor !important;
+  }
+  & .is-indeterminate .el-checkbox__inner,
+  &.is-checked .el-checkbox__inner {
+    background-color: $formLabelColor;
+  }
+  &.is-checked .el-checkbox__inner,
+  &.is-checked .el-checkbox__label {
+    color: #fff !important;
+    border-color: $formLabelColor;
+  }
+}

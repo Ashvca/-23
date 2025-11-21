@@ -1,0 +1,17 @@
+.theme-descriptions.el-descriptions {
+  background-color: $componentBgColor;
+  border-radius: 8px;
+  padding: 10px;
+  .el-descriptions__title {
+    color: $titleColor;
+  }
+  .el-descriptions__body {
+    background-color: transparent;
+    .el-descriptions-item__label {
+      color: $textColor;
+    }
+    .el-descriptions-item__content {
+      color: $successColor;
+    }
+  }
+}

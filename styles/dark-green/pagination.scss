@@ -1,0 +1,32 @@
+.theme-pagination.el-pagination {
+  .el-pagination__jump,
+  .el-pagination__total {
+    color: $titleColor;
+  }
+  input {
+    color: $successColor;
+    border-color: $borderColor;
+    background-color: $componentBgColor;
+  }
+  input::-webkit-input-placeholder {
+    color: $textColor;
+  }
+  button,
+  .el-pager,
+  .btn-quicknext,
+  .btn-quickprev {
+    color: $textColor;
+    background-color: transparent !important;
+  }
+  .active,
+  button:hover,
+  .el-pager li:hover {
+    color: $titleColor;
+  }
+  .el-pager li {
+    background-color: transparent !important;
+  }
+  .el-select__caret::before {
+    color: $titleColor;
+  }
+}

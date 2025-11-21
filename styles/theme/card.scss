@@ -1,0 +1,54 @@
+// 主题卡片样式
+.el-card.theme-card,
+.theme-card {
+  height: 100%;
+  background-color: $subBgColor;
+  border-radius: 0;
+  border-color: $borderColor;
+  box-shadow: 0px 0px 14px $borderColor inset !important;
+  color: $textColor;
+  .el-card__header {
+    border-bottom: 0;
+    font-weight: 700;
+  }
+}
+//可移动卡片样式
+.el-card.theme-moveCard,
+.theme-moveCard{
+  height: 100%;
+  background-color: $componentBgColor;
+  border-radius: 0;
+  border-color: $borderColor;
+  color: $textColor;
+  .el-card__header{
+    border-bottom: 0;
+    font-weight: 700;
+    padding:  5px;
+    background-color: $subBgColor;
+    .move{
+      width: 100%;
+      height: 1.5em;
+      font: 1em;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      i{
+        font-size: 1em;
+        cursor: pointer;
+        z-index: 11;
+      }
+      i:hover{
+        color:$dangerColor
+      }
+    }
+  }
+  .el-card__body{
+    padding: 10px;
+    min-height: 84px;
+    height: calc(100% - 34px);
+    background-color: $componentBgColor;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}

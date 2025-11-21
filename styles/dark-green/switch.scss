@@ -1,0 +1,18 @@
+.theme-switch.el-switch {
+  .el-switch__core {
+    background-color: $componentBgColor;
+    border-color: $componentBgColor;
+  }
+  .el-switch__core::after {
+    background-color: $subBgColor;
+  }
+  &.is-checked {
+    .el-switch__core {
+      background-color: $highlightBgColor;
+      border-color: $highlightBgColor;
+    }
+    .el-switch__core::after {
+      background-color: $titleColor;
+    }
+  }
+}

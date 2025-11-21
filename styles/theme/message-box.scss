@@ -1,0 +1,28 @@
+.theme-message-box {
+  background-color: $subBgColor !important;
+  border-radius: 0 !important;
+  border-color: $borderColor !important;
+  box-shadow: 0px 0px 14px $borderColor inset !important;
+  .el-message-box__title {
+    color: $titleColor;
+  }
+  .el-message-box__close {
+    color: $titleColor !important;
+  }
+  .el-message-box__message {
+    color: $textColor;
+  }
+  .el-input {
+    .el-input__icon {
+      color: $textColor !important;
+    }
+    input {
+      color: $titleColor;
+      border-color: $borderColor;
+      background-color: $themeColor;
+    }
+    input::-webkit-input-placeholder {
+      color: $textColor;
+    }
+  }
+}

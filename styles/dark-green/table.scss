@@ -1,0 +1,30 @@
+// 行颜色
+.el-table.theme-table {
+  border: 1px solid $borderColor;
+  background-color: transparent;
+  td {
+    color: $textColor;
+    background: $tableRowBgColor;
+    border-bottom: 1px solid $borderColor !important;
+  }
+  th {
+    background-color: $tableHeaderBgColor !important;
+    color: $titleColor;
+    border-bottom: 1px solid $borderColor !important;
+  }
+  tr:hover > td.el-table__cell,
+  .hover-row > td.el-table__cell {
+    background-color: $themeColor !important;
+  }
+  .el-table__fixed::before,
+  .el-table__fixed-right::before,
+  &::before {
+    background-color: transparent;
+  }
+  .el-table__empty-block {
+    background-color: $componentBgColor;
+  }
+  .el-table__empty-text {
+    color: $highlightBgColor;
+  }
+}

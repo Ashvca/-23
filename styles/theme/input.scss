@@ -1,0 +1,15 @@
+.theme-input {
+  .el-input__icon {
+    color: $defaultColor !important;
+  }
+  textarea,
+  input {
+    color: $successColor;
+    border-color: $borderColor;
+    background-color: $componentBgColor;
+  }
+  textarea::-webkit-input-placeholder,
+  input::-webkit-input-placeholder {
+    color: $defaultColor;
+  }
+}

@@ -1,0 +1,16 @@
+.theme-radio.el-radio {
+  .el-radio__inner {
+    background-color: transparent;
+    border-color: $formLabelColor;
+  }
+  .el-radio__label {
+    color: $formLabelColor;
+  }
+  &.is-checked .el-radio__label {
+    color: #fff;
+  }
+  &.is-checked .el-radio__inner {
+    border-color: $formLabelColor;
+    background-color: $formLabelColor;
+  }
+}
